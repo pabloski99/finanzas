@@ -1,0 +1,66 @@
+:root{
+--color-fondo: #0f2a6d;
+--color-ingreso: #32b03c;
+--color-gasto: #d10707;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+}
+.padre{
+    border: 1px solid var(--color-gasto);
+    max-width: 90%;
+    margin-top: 3%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10%;
+    background-color: #042067;
+}
+.hijo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-ingreso);
+    padding: 3%;
+    border-radius: 8%;
+    background-color: #0c111d;
+}
+.registro{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin: 10%;
+    border: none;
+    background-color: rgb(31, 160, 109);
+    color: aliceblue;
+    padding: 5%;
+    border-radius: 10%;
+    
+    }
+    input{
+        border-radius: 15%;
+        padding: 3%;
+    }
+
+select{
+     border-radius: 15%;
+        padding: 3%;
+}
+
+
+
+
+
