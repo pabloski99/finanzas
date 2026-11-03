@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/pabloski99/finanzas#readme",
+  "bugs": {
+    "url": "https://github.com/pabloski99/finanzas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloski99/finanzas.git"
+  },
+  "license": "MIT",
+  "author": "pablo franco",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
