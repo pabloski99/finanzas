@@ -8,6 +8,6 @@ console.log("hola este es mi promer en app en node")
     })
     
     
-    app.listen(3000,()=>{
-        console.log("este es el servidor que corre en el puerto" + puerto)
+    app.listen(puerto,()=>{
+        console.log(`corriendo en el ${puerto}`)
     })
