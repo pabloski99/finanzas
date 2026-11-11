@@ -1,9 +1,11 @@
 const datebase = require("../db/conexion_db")
 
-console.log(datebase)
 
 
 const obtenerDatos = async() => {
-    const resultados = await datebase.query("SELECT * FROM movimientos")
+    const resultados = await datebase.query("SELECT * FROM movimiento")
     console.log(resultados)
 }
+
+
+obtenerDatos()
